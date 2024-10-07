@@ -1,0 +1,562 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "NudeGreece Player/NPC Clothing",
+	"CollectionVersion": 5,
+	"CollectionID": "NudeGreecePlayerNPCClothing",
+	"Patches": [
+		{
+			"PatchTitle": "Athlete Outfit (male)",
+			"PatchDescription": "Removes the Athlete/Bare-chested underwear",
+			"PatchID": "NudeGreece Athlete Male",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1663318438957,
+					"Edits": [
+						{
+							"OffsetHex": "198",
+							"Data": "0000000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Athlete Outfit (female)",
+			"PatchDescription": "Removes the Athlete/Bare-chested underwear and bra",
+			"PatchID": "NudeGreece Athlete Female",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1663318438957,
+					"Edits": [
+						{
+							"OffsetHex": "2C6",
+							"RunCount": 3,
+							"Skip": [294,233],
+							"Data": "0000000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Daughters of Artemis Bras",
+			"PatchDescription": "Removes several styles of DoA bras",
+			"PatchID": "DoA Bra D32_A02, D58_B01, T32_A01, D34_A01, D32_A01",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1673339817585,
+					"Edits": [
+						{
+							"OffsetHex": "38905",
+							"RunSize": [6],
+							"RunCount": 2970,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1673339955154,
+					"Edits": [
+						{
+							"OffsetHex": "2DA87",
+							"RunSize": [6],
+							"RunCount": 2226,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1673339955177,
+					"Edits": [
+						{
+							"OffsetHex": "C7FF",
+							"RunSize": [6],
+							"RunCount": 1484,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1673339955183,
+					"Edits": [
+						{
+							"OffsetHex": "7A92",
+							"RunSize": [6],
+							"RunCount": 742,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1673339955189,
+					"Edits": [
+						{
+							"OffsetHex": "55EE",
+							"RunSize": [6],
+							"RunCount": 445,
+							"Data": "00"
+						}
+					]
+				},		
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1663318472473,
+					"Edits": [
+						{
+							"OffsetHex": "E779",
+							"RunSize": [6],
+							"RunCount": 754,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1663318491126,
+					"Edits": [
+						{
+							"OffsetHex": "B979",
+							"RunSize": [6],
+							"RunCount": 564,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1663318491132,
+					"Edits": [
+						{
+							"OffsetHex": "20E7",
+							"RunSize": [6],
+							"RunCount": 376,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1663318491138,
+					"Edits": [
+						{
+							"OffsetHex": "1382",
+							"RunSize": [6],
+							"RunCount": 188,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1663318491144,
+					"Edits": [
+						{
+							"OffsetHex": "CE2",
+							"RunSize": [6],
+							"RunCount": 112,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1512394518909,
+					"Edits": [
+						{
+							"OffsetHex": "1812B",
+							"RunSize": [6],
+							"RunCount": 753,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1512394518915,
+					"Edits": [
+						{
+							"OffsetHex": "15504",
+							"RunSize": [6],
+							"RunCount": 564,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1512394518921,
+					"Edits": [
+						{
+							"OffsetHex": "3A7C",
+							"RunSize": [6],
+							"RunCount": 422,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1512394518927,
+					"Edits": [
+						{
+							"OffsetHex": "2307",
+							"RunSize": [6],
+							"RunCount": 210,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1512394518933,
+					"Edits": [
+						{
+							"OffsetHex": "13C6",
+							"RunSize": [6],
+							"RunCount": 105,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1597955710343,
+					"Edits": [
+						{
+							"OffsetHex": "13E5C",
+							"RunSize": [6],
+							"RunCount": 753,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1597955710343,
+					"Required": false,
+					"Edits": [
+						{
+							"OffsetHex": "13E5C",
+							"RunSize": [6],
+							"RunCount": 753,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1663754202175,
+					"Edits": [
+						{
+							"OffsetHex": "F283",
+							"RunSize": [6],
+							"RunCount": 376,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_3\\DataPC_3_dlc.forge",
+					"FileID": 1663754202175,
+					"Required": false,
+					"Edits": [
+						{
+							"OffsetHex": "F283",
+							"RunSize": [6],
+							"RunCount": 376,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_15_dlc_patch_01.forge",
+					"FileID": 1673339817584,
+					"Edits": [
+						{
+							"OffsetHex": "C97E",
+							"RunSize": [6],
+							"RunCount": 1484,
+							"Data": "00"
+						},
+						{
+							"OffsetHex": "16842",
+							"RunSize": [6],
+							"RunCount": 742,
+							"Data": "00"
+						},
+						{
+							"OffsetHex": "1D0FE",
+							"RunSize": [6],
+							"RunCount": 445,
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Daughters of Artemis Clothing",
+			"PatchDescription": "Removes several styles of DoA clothing",
+			"PatchID": "DoA Clothing",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1512394399129,
+					"Edits": [
+						{
+							"OffsetHex": "4624B",
+							"RunSize": [6],
+							"RunCount": 2266,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1512393970874,
+					"Edits": [
+						{
+							"OffsetHex": "4CF98",
+							"RunSize": [6],
+							"RunCount": 3098,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399135,
+					"Edits": [
+						{
+							"OffsetHex": "C794",
+							"RunSize": [6],
+							"RunCount": 1699,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399141,
+					"Edits": [
+						{
+							"OffsetHex": "7215",
+							"RunSize": [6],
+							"RunCount": 849,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_15_dlc_patch_01.forge",
+					"FileID": 1512393970861,
+					"Edits": [
+						{
+							"OffsetHex": "C90F",
+							"RunSize": [6],
+							"RunCount": 1699,
+							"Data": "00"
+						},
+						{
+							"OffsetHex": "16460",
+							"RunSize": [6],
+							"RunCount": 849,
+							"Data": "00"
+						},
+						{
+							"OffsetHex": "1B917",
+							"RunSize": [6],
+							"RunCount": 423,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399147,
+					"Edits": [
+						{
+							"OffsetHex": "3F67",
+							"RunSize": [6],
+							"RunCount": 423,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512393970862,
+					"Edits": [
+						{
+							"OffsetHex": "A76F",
+							"RunSize": [6],
+							"RunCount": 456,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399153,
+					"Edits": [
+						{
+							"OffsetHex": "7278",
+							"RunSize": [6],
+							"RunCount": 342,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399159,
+					"Edits": [
+						{
+							"OffsetHex": "319C",
+							"RunSize": [6],
+							"RunCount": 256,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399165,
+					"Edits": [
+						{
+							"OffsetHex": "1877",
+							"RunSize": [6],
+							"RunCount": 128,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394399171,
+					"Edits": [
+						{
+							"OffsetHex": "9A6",
+							"RunSize": [6],
+							"RunCount": 64,
+							"Data": "00"
+						}
+					]
+				}				
+			]
+		},
+		{
+			"PatchTitle": "Daughters of Artemis Belt",
+			"PatchDescription": "Removes the belt from DoA clothing",
+			"PatchID": "DoA Belt",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394308134,
+					"Edits": [
+						{
+							"OffsetHex": "41134",
+							"RunSize": [6],
+							"RunCount": 3042,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394344662,
+					"Edits": [
+						{
+							"OffsetHex": "2CF72",
+							"RunSize": [6],
+							"RunCount": 2281,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394344668,
+					"Edits": [
+						{
+							"OffsetHex": "D2D8",
+							"RunSize": [6],
+							"RunCount": 1709,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394344674,
+					"Edits": [
+						{
+							"OffsetHex": "7EC2",
+							"RunSize": [6],
+							"RunCount": 853,
+							"Data": "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1512394344680,
+					"Edits": [
+						{
+							"OffsetHex": "4BE6",
+							"RunSize": [6],
+							"RunCount": 425,
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Daughters of Artemis Body Paint",
+			"PatchDescription": "Removes the body paint from DoA",
+			"PatchID": "DoA Body Paint",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1811377558165,
+					"Edits": [
+						{
+							"OffsetHex": "14AF",
+							"RunCount": 2,
+							"Skip": [85],
+							"Data": "1AFD831963010000"					
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1672342011988,
+					"Edits": [
+						{
+							"OffsetHex": "452",
+							"RunCount": 6,
+							"RunSize": [8],
+							"Skip": [130,130,76,17,17],
+							"Data": "1AFD831963010000"					
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,402 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "NudeGreece NPC Clothing Male",
+	"CollectionVersion": 3,
+	"CollectionID": "NudeGreeceNPCMale",
+	"Patches": [
+		{
+			"PatchTitle": "Nuclear option (male)",
+			"PatchDescription": "Removes clothing from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear male",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273612725,
+					"Edits": [
+						{
+							"OffsetHex": "6E6",
+							"RunCount": 10,
+							"RunSize": [8],
+							"Skip": [18, 44, 44, 18, 18, 18, 18, 18, 18],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Nuclear option Headwear (male)",
+			"PatchDescription": "Removes headwear from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear headwear male",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273612725,
+					"Edits": [
+						{
+							"OffsetHex": "74E",
+							"RunSize": [8],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Nuclear option Footwear (male)",
+			"PatchDescription": "Removes footwear from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear footwear male",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273612725,
+					"Edits": [
+						{
+							"OffsetHex": "71A",
+							"RunSize": [8],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Workers",
+			"PatchDescription": "Removes tunics from the worker class",
+			"PatchID": "NudeGreece Nude Male Workers",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412548570552,
+					"Edits": [
+						{
+							"OffsetHex": "18A",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "227",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "2C4",
+							"Data": "9F1E96C2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Worker footwear",
+			"PatchDescription": "Removes footwear from the worker class",
+			"PatchID": "NudeGreece Male Workers footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412548570553,
+					"Edits": [
+						{
+							"OffsetHex": "18D",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lower Class",
+			"PatchDescription": "Removes tunics from the lower class",
+			"PatchID": "NudeGreece Nude Male LowerClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165414768,
+					"Edits": [
+						{
+							"OffsetHex": "2C1",
+							"RunCount": 4,
+							"Skip": [179,227,153],
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "629",
+							"Data": "675E5AEB"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lower Class Footwear",
+			"PatchDescription": "Removes footwear from the lower class",
+			"PatchID": "NudeGreece Nude Male LowerClass footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165414769,
+					"Edits": [
+						{
+							"OffsetHex": "193",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Middle Class",
+			"PatchDescription": "Removes tunics from the middle class",
+			"PatchID": "NudeGreece Nude Male MiddleClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165402357,
+					"Edits": [
+						{
+							"OffsetHex": "187",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "20E",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "295",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Middle Class Footwear",
+			"PatchDescription": "Removes footwear from the middle class",
+			"PatchID": "NudeGreece Nude Male MiddleClass Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165402358,
+					"Edits": [
+						{
+							"OffsetHex": "127",
+							"RunCount": 4,
+							"Skip": [105],
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Upper Class",
+			"PatchDescription": "Removes tunics from the upper class",
+			"PatchID": "NudeGreece Nude Male UpperClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165316739,
+					"Edits": [
+						{
+							"OffsetHex": "1E9",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "28A",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "32B",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Upper Class Footwear",
+			"PatchDescription": "Removes footwear from the upper class",
+			"PatchID": "NudeGreece Nude Male UpperClass Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165316740,
+					"Edits": [
+						{
+							"OffsetHex": "126",
+							"RunCount": 4,
+							"Skip": [105],
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Athletes",
+			"PatchDescription": "Removes Athlete underwear",
+			"PatchID": "NudeGreece Nude Male Olympics",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1665645368691,
+					"Edits": [
+						{
+							"OffsetHex": "18A",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Beggars",
+			"PatchDescription": "Removes tunics from beggars",
+			"PatchID": "NudeGreece Nude Male Beggars",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412548788850,
+					"Edits": [
+						{
+							"OffsetHex": "1E2",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "226",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Blacksmiths",
+			"PatchDescription": "Removes tunics from blacksmiths",
+			"PatchID": "NudeGreece Nude Male Blacksmiths",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081391254,
+					"Edits": [
+						{
+							"OffsetHex": "18D",
+							"Data": "83C0DDBA"
+						},
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081391256,
+					"Edits": [
+						{
+							"OffsetHex": "18D",
+							"Data": "9F1E96C2"
+						},
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081391263,
+					"Edits": [
+						{
+							"OffsetHex": "18D",
+							"Data": "377FE8D1"
+						},
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1897769732498,
+					"Edits": [
+						{
+							"OffsetHex": "BBC",
+							"Data": "83C0DDBA"
+						},
+						{
+							"OffsetHex": "C1C",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "E0C",
+							"Data": "377FE8D1"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Merchants",
+			"PatchDescription": "Removes tunics from merchants",
+			"PatchID": "NudeGreece Nude Male Merchants",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081315501,
+					"Edits": [
+						{
+							"OffsetHex": "386",
+							"RunCount": 4,
+							"Skip": [231,253,183],
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Musicians",
+			"PatchDescription": "Removes tunics from musicians",
+			"PatchID": "NudeGreece Nude Male Musicians",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081351363,
+					"Edits": [
+						{
+							"OffsetHex": "18B",
+							"Data": "9F1E96C2"
+						},
+						{
+							"OffsetHex": "228",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Street Vendors",
+			"PatchDescription": "Removes tunics from street vendors",
+			"PatchID": "NudeGreece Nude Male Street Vendors",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412081386622,
+					"Edits": [
+						{
+							"OffsetHex": "18F",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+	]
+}

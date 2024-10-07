@@ -1,0 +1,244 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "NudeGreece NPC Clothing Female",
+	"CollectionVersion": 3,
+	"CollectionID": "NudeGreeceNPCFemale",
+	"Patches": [
+			{
+			"PatchTitle": "Nuclear option (female)",
+			"PatchDescription": "Removes clothing from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear female",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273680395,
+					"Edits": [
+						{
+							"OffsetHex": "6F6",
+							"RunCount": 10,
+							"RunSize": [8],
+							"Skip": [18,44,44,18,18,18,18,18,18],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Nuclear option Headwear (female)",
+			"PatchDescription": "Removes headwear from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear headwear female",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273680395,
+					"Edits": [
+						{
+							"OffsetHex": "75E",
+							"RunSize": [8],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Nuclear option Footwear (female)",
+			"PatchDescription": "Removes footwear from most minor NPCs",
+			"PatchID": "NudeGreece Nuclear footwear female",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_patch_01.forge",
+					"FileID": 1150273680395,
+					"Edits": [
+						{
+							"OffsetHex": "72A",
+							"RunSize": [8],
+							"Data": "00"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Prostitutes",
+			"PatchDescription": "Removes the dress from prostitutes",
+			"PatchID": "NudeGreece Nude Female Prostitutes",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1651479174244,
+					"Edits": [
+						{
+							"OffsetHex": "124",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Prostitute footwear",
+			"PatchDescription": "Removes footwear from prostitutes",
+			"PatchID": "NudeGreece Nude Female Prostitutes Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1651479174353,
+					"Edits": [
+						{
+							"OffsetHex": "194",
+							"Data": "7495B897"
+						},
+						{
+							"OffsetHex": "201",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Workers",
+			"PatchDescription": "Removes dress from the worker class",
+			"PatchID": "NudeGreece Nude Female Workers",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1412548648649,
+					"Edits": [
+						{
+							"OffsetHex": "120",
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lower Class",
+			"PatchDescription": "Removes dress from the lower class",
+			"PatchID": "NudeGreece Nude Female LowerClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165428265,
+					"Edits": [
+						{
+							"OffsetHex": "1FA",
+							"RunCount": 4,
+							"Skip": [153,153,249],
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Lower Class Footwear",
+			"PatchDescription": "Removes footwear from the lower class",
+			"PatchID": "NudeGreece Nude Female LowerClass Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165428266,
+					"Edits": [
+						{
+							"OffsetHex": "193",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Middle Class",
+			"PatchDescription": "Removes dress from the middle class",
+			"PatchID": "NudeGreece Nude Female MiddleClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165427905,
+					"Edits": [
+						{
+							"OffsetHex": "25E",
+							"RunCount": 4,
+							"Skip": [253,201,179],
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Middle Class Footwear",
+			"PatchDescription": "Removes footwear from the middle class",
+			"PatchID": "NudeGreece Nude Female MiddleClass Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165427906,
+					"Edits": [
+						{
+							"OffsetHex": "194",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Upper Class",
+			"PatchDescription": "Removes dresses from the upper class",
+			"PatchID": "NudeGreece Nude Female UpperClass",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165415692,
+					"Edits": [
+						{
+							"OffsetHex": "25D",
+							"RunCount": 6,
+							"Skip": [253,227,201,205,227],
+							"Data": "9F1E96C2"
+						},
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Upper Class Footwear",
+			"PatchDescription": "Removes footwear from the upper class",
+			"PatchID": "NudeGreece Nude Female UpperClass Footwear",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1540165415693,
+					"Edits": [
+						{
+							"OffsetHex": "126",
+							"Data": "7495B897"
+						},
+					]
+				}
+			]
+		},
+	]
+}
+
+
+
+
