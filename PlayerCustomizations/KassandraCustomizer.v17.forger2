@@ -1194,7 +1194,7 @@
          "PatchTitle":"Kasssandra Template Body",
          "PatchDescription":"Enable the template body for Kassandra",
          "PatchID":"Kassandra placeholder",
-         "PatchVersion":7,
+         "PatchVersion":8,
          "Targets":[
             {
                "File":"dlc_58\\DataPC_58_dlc.forge",
@@ -1243,7 +1243,7 @@
                ]
             },
             {
-               "File":"DataPC_patch_01.forge",
+               "File":"dlc_58\\DataPC_58_dlc.forge",
                "FileID":1615251020932,
                "Inserts":[
                   {
