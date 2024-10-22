@@ -1,0 +1,305 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "NudeGreece Nude Skins",
+	"CollectionVersion": 10,
+	"CollectionID": "NudeGreeceNudeSkins",
+	"Patches": [
+		{
+			"PatchTitle": "Base Skin",
+			"PatchDescription": "Required for all skins.  Removes the white underwear for all characters",
+			"PatchID": "NudeGreece Base Skin BodyShared_New",
+			"PatchVersion": 5,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1525141375064,
+					"Edits": [
+						{
+							"OffsetHex": "E5",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_BodyShared_New_DiffuseMap.dds",
+							"DataFileOffsetHex": "94",
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1525141470494,
+					"Edits": [
+						{
+							"OffsetHex": "4A",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_BodyShared_New_Mask1Map.dds",
+							"DataFileOffsetHex": "94",
+							"DataFileSize": 4194304
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1525141470496,
+					"Edits": [
+						{
+							"OffsetHex": "4A",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_BodyShared_New_Mask1Map.dds",
+							"DataFileOffsetHex": "400094",
+							"DataFileSize": 1048576
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1525141470490,
+					"Edits": [
+						{
+							"OffsetHex": "E3",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_BodyShared_New_Mask1Map.dds",
+							"DataFileOffsetHex": "500094",
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1525141470490,
+					"Edits": [
+						{
+							"OffsetHex": "E3",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_BodyShared_New_Mask1Map.dds",
+							"DataFileOffsetHex": "500094",
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1135712010370,
+					"Edits": [
+						{
+							"OffsetHex": "4A",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_D01_DetailMud_NormalMap.dds",
+							"DataFileOffsetHex": "94",
+							"DataFileSize": 1048576
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1135712010372,
+					"Edits": [
+						{
+							"OffsetHex": "4A",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_D01_DetailMud_NormalMap.dds",
+							"DataFileOffsetHex": "100094",
+							"DataFileSize": 262144
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1135712010366,
+					"Edits": [
+						{
+							"OffsetHex": "E3",
+							"DataFile": "Nude Skins\\ACD_CHS_SHR_D01_DetailMud_NormalMap.dds",
+							"DataFileOffsetHex": "140094"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Alexios Nude Skin",
+			"PatchDescription": "Uncut penis and pube texture for Alexios",
+			"PatchID": "NudeGreece Alexios Nude Skin",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1542420440947,
+					"Edits": [
+						{
+							"OffsetHex": "E5",
+							"DataFile": "Nude Skins\\ACD_CHM_PLA_B01_BodyAlexios_NormalMap.dds",
+							"DataFileOffsetHex": "94"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "Kassandra  Nude Skin",
+			"PatchDescription": "Textured nipples and hairless vulva for Kassandra",
+			"PatchID": "NudeGreece Kassandra Nude Skin",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 519028747704,
+					"Edits": [
+						{
+							"OffsetHex": "E2",
+							"DataFile": "Nude Skins\\ACD_CHR_P_Kassandra_Body_NormalMap.dds",
+							"DataFileOffsetHex": "94"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "NPC Female Average Body",
+			"PatchDescription": "Textured nipples and hairless vulva for NPCs",
+			"PatchID": "NudeGreece Female AverageBody",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 519028681523,
+					"Edits": [
+						{
+							"OffsetHex": "4C",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAverage_NormalMap.dds",
+							"DataFileOffsetHex": "94",
+							"DataFileSize": 1048576
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 519028681525,
+					"Edits": [
+						{
+							"OffsetHex": "4C",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAverage_NormalMap.dds",
+							"DataFileOffsetHex": "100094",
+							"DataFileSize": 262144
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 519028681519,
+					"Edits": [
+						{
+							"OffsetHex": "E5",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAverage_NormalMap.dds",
+							"DataFileOffsetHex": "140094"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "NPC Female Athletic Body",
+			"PatchDescription": "Textured nipples and hairless vulva for NPCs",
+			"PatchID": "NudeGreece Female AthleticBody",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1431030053093,
+					"Edits": [
+						{
+							"OffsetHex": "4D",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "94",
+							"DataFileSize": 1048576
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1431030053093,
+					"Edits": [
+						{
+							"OffsetHex": "4D",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "94",
+							"DataFileSize": 1048576
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1431030053095,
+					"Edits": [
+						{
+							"OffsetHex": "4D",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "100094",
+							"DataFileSize": 262144
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1431030053095,
+					"Edits": [
+						{
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "100094",
+							"DataFileSize": 262144
+						}
+					]
+				},
+				{
+					"File": "dlc_43\\DataPC_43_dlc.forge",
+					"FileID": 1431030053089,
+					"Edits": [
+						{
+							"OffsetHex": "E6",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "140094"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1431030053089,
+					"Edits": [
+						{
+							"OffsetHex": "E6",
+							"DataFile": "Nude Skins\\ACD_CHF_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "140094"
+							}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "NPC Male Average Body",
+			"PatchDescription": "Uncut penis and pube texture for NPCs",
+			"PatchID": "NudeGreece AverageBody",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 519046594204,
+					"Edits": [
+						{
+							"OffsetHex": "E5",
+							"DataFile": "Nude Skins\\ACD_CHM_SHR_B01_BodyAverage_NormalMap.dds",
+							"DataFileOffsetHex": "94"
+						}
+					]
+				}
+			]
+		},
+		{
+			"PatchTitle": "NPC Male Athletic Body",
+			"PatchDescription": "Uncut penis and pube texture for NPCs",
+			"PatchID": "NudeGreece AthleticBody",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_43\\DataPC_ACD_Greece_43_dlc.forge",
+					"FileID": 1119116243226,
+					"Edits": [
+						{
+							"OffsetHex": "E6",
+							"DataFile": "Nude Skins\\ACD_CHM_SHR_B01_BodyAthletic_NormalMap.dds",
+							"DataFileOffsetHex": "94"
+						}
+					]
+				}
+			]
+		}
+	]
+}
