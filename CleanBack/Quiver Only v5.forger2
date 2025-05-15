@@ -1,0 +1,365 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Quiver Only",
+	"CollectionVersion": 5.0,
+	"CollectionID": "Quiver Only",
+	"Patches": [
+		{
+			"PatchTitle": "Achilles and Big Horn Bows & Quivers",
+			"PatchDescription": "Renders Achilles and Big Horn Bows & Quivers invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_RedGoldBow, ACD_W_M_Bow_AchillesBow, and ACD_W_LGD_Quiver_D",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find D4096F028301 (0x00000183026F09D4: ACD_W_LGD_Quiver_D.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "3E1","RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F64","RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "3E1", "RunCount" : 1, "Data" : "00000000000000" }]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F64", "RunCount" : 1, "Data" : "00000000000000" }]},
+			]},
+		{
+			"PatchTitle": "Abstergo Bow & Quiver",
+			"PatchDescription": "Renders Abstergo Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_DLC_Quiver_Abstergo and ACD_W_M_Bow_AbstergoBow",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 489B4AA3A701 (0x000001A7A34A9B48: ACD_W_DLC_Quiver_Abstergo.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "BBF","RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "BBF", "RunCount" : 1, "Data" : "00000000000000" }]},
+			]},
+		{
+			"PatchTitle": "Artemis Bow & Quiver",
+			"PatchDescription": "Renders Artemis Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_ArtemisBow and ACD_W_LGD_Quiver_E",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 4868647B8601 (0x0000018491F8A5B2: ACD_W_LGD_Quiver_E.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "467", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F7D", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "467", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F7D", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Basic Bows & Quivers",
+			"PatchDescription": "Renders Ashen, Bandit, Greek Reflex, Heavy, Hunter, Improved Hunter Bow, Precursor Reflex, Ornate, Recurve, Reflex, and Toxarchos Reflex Bows & Quivers invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Shotgun_Bow_06, 05, 01, 10, AlexiosBow, 09, 03; Quiver_A, B, C; ACD_W_Bow_DLC_ISUBow, ACD_W_Bow_DLC_ISUBow_Gameplay, ACD_W_M_Shotgun_Bow_01, and ACD_W_DLC_Quiver_ISU; ACD_W_M_Bow_AthenianBow and ACD_W_ULC_Quiver_Athenian",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 0C314C046401 (0x00000164044C310C: ACD_W_SHR_Quiver_A.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "21F", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F19", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "21F", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F19", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find 65576D028301 (0x00000183026D5765: ACD_W_SHR_Quiver_B.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "2D5", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F32", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "2D5", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F32", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find 1A286E028301 (0x00000183026E281A: ACD_W_SHR_Quiver_C.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "35B", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F4B", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "35B", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F4B", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find 65576D028301 (0x00000185815E395D: ACD_W_ULC_Quiver_Athenian.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "78B", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1013", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "78B", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1013", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find EF116BACAE01 (0x000001AEAC6B11EF: ACD_W_DLC_IsuQuiver_LOD0.Mesh) in 1849728635366
+				{"File": "dlc_32\\DataPC_32_dlc.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "46", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_32\\DataPC_ACD_Elysium.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "46", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find F7116BACAE01 (0x000001AEAC6B11F7: ACD_W_DLC_IsuQuiver_LOD1.Mesh) in 1849728635366
+				{"File": "dlc_32\\DataPC_32_dlc.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "83", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_32\\DataPC_ACD_Elysium.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "83", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find FF116BACAE01 (0x000001AEAC6B11FF: ACD_W_DLC_IsuQuiver_LOD2.Mesh) in 1849728635366
+				{"File": "dlc_32\\DataPC_32_dlc.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "C0", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_32\\DataPC_ACD_Elysium.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "C0", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find 07126BACAE01 (0x000001AEAC6B1207: ACD_W_DLC_IsuQuiver_LOD3.Mesh) in 1849728635366
+				{"File": "dlc_32\\DataPC_32_dlc.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "FD", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_32\\DataPC_ACD_Elysium.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "FD", "RunCount" : 1, "Data" : "00000000000000"}]},
+			//Quiver: Find 0F126BACAE01 (0x000001AEAC6B120F: ACD_W_DLC_IsuQuiver_LOD4.Mesh) in 1849728635366
+				{"File": "dlc_32\\DataPC_32_dlc.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "13A", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_32\\DataPC_ACD_Elysium.forge", "FileID": 1849728635366, "Edits": [{"OffsetHex": "13A", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Eros Bow & Quiver",
+			"PatchDescription": "Renders Eros Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_ErosBow and ACD_W_LGD_Quiver_F",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 4868647B8601 (0x000001867B646848: ACD_W_LGD_Quiver_F.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "4ED", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F96", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "4ED", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "F96", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Fanged/Viper Bow & Quiver",
+			"PatchDescription": "Renders Fanged/Viper Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_CHW_Bow_SnakeBow and Quiver_J",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find A5DFF8918401 (0x0000018491F8DFA5: ACD_W_LGD_Quiver_J.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "705", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FFA", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "705", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FFA", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Hades/Cursed Hades Bow & Quiver",
+			"PatchDescription": "Renders Hades/Cursed Hades Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_HadesBow, ACD_W_Bow_DLC_CursedHades_Gameplay and ACD_W_LGD_Quiver_G",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 9F2B647B8601 ( 0x000001867B642B9F: ACD_W_LGD_Quiver_G.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "573", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FAF", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "573", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FAF", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Helios Bow & Quiver",
+			"PatchDescription": "Renders Helios Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_ULC_Bow_Helios and ACD_W_ULC_Quiver_Helios",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find B3B4749FB901 (0x000001B99F74B4B3: ACD_W_ULC_Quiver_Helios.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "DDB", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "DDB", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Helot Bow & Quiver",
+			"PatchDescription": "Renders Helot Bow & Quiver invisible",
+			"PatchID": "QuiverOnly_ACD_W_ULC_Quiver_Spartan and ACD_W_M_Bow_SpartanBow",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 83395E818501 (0x00000185815E3983: ACD_W_ULC_Quiver_Spartan.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "811", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "102C", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "811", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "102C", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Herakles Bow & Quiver",
+			"PatchDescription": "Renders Herakles Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_HeraclesBow and ACD_W_LGD_Quiver_H",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 1E81F7918401 (0x0000018491F7811E: ACD_W_LGD_Quiver_H.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "5F9", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FC8", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "5F9", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FC8", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Ikaros Bow & Quiver",
+			"PatchDescription": "Renders Ikaros Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_ULC_Bow_Ikaros and ACD_W_ULC_Quiver_Ikaros",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find A4CB2178BE01 (0x000001BE7821CBA4: ACD_W_ULC_Quiver_Ikaros.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "E62", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "E62", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Ixion's Agony (Tartaros) Bow & Quiver",
+			"PatchDescription": "Renders Ixion's Agony (Tartaros) Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_Bow_ULC_FireBow and ACD_W_ULC_Quiver_Ikaros",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 56F23AC7E501 (0x000001E5C73AF256: ACD_W_ULC_Quiver_Fire.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "EE9", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "EE9", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Odysseus Bow & Quiver",
+			"PatchDescription": "Renders Odysseus Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_Bow_DLC_Odysseus and ACD_W_DLC_Quiver_Odysseus",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 60B6CBF89D01 (0x0000019DF8CBB660: ACD_W_DLC_Quiver_Odysseus.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "AB1", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "AB1", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Paris Bow & Quiver",
+			"PatchDescription": "Renders Paris Bow & Quiver invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_ParisBow.LODSelector and ACD_W_LGD_Quiver_I",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 88A5F8918401 (0x0000018491F8A588: ACD_W_LGD_Quiver_I.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "67F", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FE1", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "67F", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "FE1", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Pessesh en Gerrehh Bow & Quiver",
+			"PatchDescription": "Renders Pessesh en Gerrehh Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_PesseshEnGerrehh and ACD_W_STORE_Quiver_PesseshEnGerrehh",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find A323BDD18A01 (0x0000018AD1BD23A3: ACD_W_STORE_Quiver_PesseshEnGerrehh.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "91D", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "105E", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "91D", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "105E", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Steropes Bow & Quiver",
+			"PatchDescription": "Renders Steropes Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_SteropesBow and ACD_W_ULC_Quiver_Steropes",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find CBDAE7C59801 (0x00000198C5E7DACB: ACD_W_ULC_Quiver_Steropes.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "A2A", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "A2A", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Swift-Winged Bow & Quiver",
+			"PatchDescription": "Renders Swift-Winged Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_DLC_Bow_Elysium and ACD_W_DLC_Quiver_Elysium",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find ECA9D21CB101 (0x000001B11CD2A9EC: ACD_W_DLC_Quiver_Elysium.BuildTable) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "D54", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "D54", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Thrakian Bow & Quiver",
+			"PatchDescription": "Renders Thrakian Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_DacianBow and ACD_W_CLUB_Quiver_Dacian",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find F8F062FD8B01 (0x0000018BFD62F0F8: ACD_W_CLUB_Quiver_Dacian.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "9A3", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1077", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "9A3", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1077", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Vine Bow & Quiver",
+			"PatchDescription": "Renders Vine Bow & Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_M_Bow_WineBow and ACD_W_ULC_Quiver_Wine",
+			"PatchVersion": 1,
+			"Targets": [
+			//Quiver: Find 80486AB08801 (0x00000188B06A4880: ACD_W_ULC_Quiver_Wine.LODSelector) in 1662192516520
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "897", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "DataPC_patch_01.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1045", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "897", "RunCount" : 1, "Data" : "00000000000000"}]},
+				{"File": "dlc_58\\DataPC_ACD_Connection.forge", "FileID": 1662192516520, "Edits": [{"OffsetHex": "1045", "RunCount" : 1, "Data" : "00000000000000"}]},
+			]},
+		{
+			"PatchTitle": "Arrows inside Quiver",
+			"PatchDescription": "Renders Arrows inside Quiver Invisible",
+			"PatchID": "QuiverOnly_ACD_W_SHR_Arrow_A",
+			"PatchVersion": 2,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549856,
+					"Edits": [
+						{
+							"OffsetHex": "56D0",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_58\\DataPC_ACD_Connection.forge",
+					"FileID": 1662192549857,
+					"Edits": [
+						{
+							"OffsetHex": "8EF2",
+							"RunSize" : [6],
+							"RunCount": 1575,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_58\\DataPC_ACD_Connection.forge",
+					"FileID": 1668896272237,
+					"Edits": [
+						{
+							"OffsetHex": "73D6",
+							"RunSize" : [6],
+							"RunCount": 1181,
+							"Data" : "00"
+						}
+					]
+				},
+				{
+					"File": "dlc_58\\DataPC_ACD_Connection.forge",
+					"FileID": 1668896272243,
+					"Edits": [
+						{
+							"OffsetHex": "555E",
+							"RunSize" : [6],
+							"RunCount": 787,
+							"Data" : "00"
+						}
+					]
+				},
+			]
+		},
+		{
+			"PatchTitle": "No Spear",
+			"PatchDescription": "Renders Spear of Leonidas Invisible",
+			"PatchID": "QuiverOnly_No spear by hypermorphic",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "DataPC_SharedGroup_00.forge",
+					"FileID": 1603947204681,
+					"Edits": [
+						{
+							"OffsetHex": "2E4",
+							"RunCount": 6,
+							"Skip": [78],
+							"Data" : "00000000000000"
+						}
+					]
+				},
+				{
+					"File": "dlc_58\\DataPC_ACD_Connection.forge",
+					"FileID": 1603947204681,
+					"Edits": [
+						{
+							"OffsetHex": "2E4",
+							"RunCount": 6,
+							"Skip": [78],
+							"Data" : "00000000000000"
+						}
+					]
+				},
+			]
+		}
+	]
+}
