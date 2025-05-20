@@ -1,0 +1,51 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Extra",
+	"CollectionVersion": 1,
+	"CollectionID": "TrigAsusExtra",
+	"Patches": [
+		{
+			"PatchTitle": "Extra - Helios God Rays",
+			"PatchDescription": "Removes the God Rays from the Helios Crown",
+			"PatchID": "TrigAsusExtra_H403_GodRays_RemoveTattoo",
+			"PatchVersion": 1,
+			"Targets": [
+				{
+					"File": "dlc_54\\DataPC_54_dlc.forge",
+					"FileID": 1898722034658,
+					"Edits": [
+						{
+							"OffsetHex": "54",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "1B6",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "212F9",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "2131D",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "21397",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "21639",
+							"Data": "0000000000000000"
+						},
+						{
+							"OffsetHex": "217CB",
+							"Data": "0000000000000000"
+						}
+					]
+				}
+			]
+		}
+    ]
+}
